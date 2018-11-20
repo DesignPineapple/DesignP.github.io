@@ -6,173 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/css.css">
     <title>Document</title>
-    <style>
-        /* 整體設定 */
-        *{
-            font-family:"微軟正黑體";
-        }
-        body{
-            box-sizing: border-box;
-            margin: 0;
-        }
-
-        /* navbar */
-        .navcolor{
-            background-color: #E8CF70;
-            z-index: 1;
-        }
-        .logo{
-            height: 70px;
-        }
-        .textsize{
-            font-size: 25px;
-        }
-        #header{
-            position: fixed;
-            width: 100%;
-            top:0;
-            z-index: 1;
-        }
-
-        /* 輪播 */
-        #banner{
-            padding-top: 96px;
-        }
-        #bannerContent{
-            max-height: 800px;
-        }
-        .active{
-            transform: scale(1.5);
-            transition: 2s;
-        }
-        .img_size{
-            background-position: center;
-            background-size: cover;
-        }
-
-        /* 介紹 */
-        h1{
-            margin: 0;
-            font-size: 50px;
-        }
-        h2{
-            margin: 0;
-            font-size: 35px;
-            margin-bottom: 10px;
-        }
-        p{
-            padding: 20px;
-            font-size: 20px;
-        }
-        #About{
-            background-image: url("img/03_bg/01_about_bg.jpg");
-            background-size: cover;
-            background-position: center;
-            width: 100%;
-        }
-        .titleA{
-            margin: 0;
-        }
-        .title1{
-            padding-top: 100px;
-        }
-        .title2{
-            padding-top: 100px;
-            padding-bottom: 100px;
-        }
-
-        /* footer */
-        #footer{
-            background-color: #DBB859;
-            height: 80px;
-        }
-        #footerContent{
-            padding:.5rem 12rem 0 12rem;
-        }
-        #footerContent .row{
-            justify-content: center;
-        }
-        img#footerLogo{
-            max-width: 90px;
-        }
-        #footerText{
-            max-width: 400px;
-            padding-top: .5rem;
-        }
-        #footerText p{
-            padding: 0;
-            margin: 0;
-            font-size: 1.1rem;
-        }
-        #footerFbContent{
-            padding-top: .7rem;
-        }
-        img#footerFb{
-            max-width: 40px;
-        }
-
-    /* @media */
-    @media only screen and (max-width: 991px) {
-        .logo{
-            height: 60px;
-        }
-        /* 輪播 */
-        #banner{
-            padding-top: 86px;
-        }
-        /* 介紹 */
-        .title2{
-            padding: 50px 0 50px 45px;
-        }
-        h1{
-            writing-mode: none;
-            width: 100%;
-            font-size: 30px;
-        }
-        h2{
-            font-size: 25px;
-        }
-        .textsize{
-            font-size: 20px;
-            padding: 10px;
-        }
-        /* footer */
-        #footer{
-            min-height: 200px;
-        }
-        #footerContent{
-            padding:.5rem 0;
-        }
-        #footerText p{
-            font-size: .9rem;
-        }
-    }
-
-    @media only screen and (max-width: 375px){
-        /* navbar */
-        #header{
-            padding: 0;
-            margin: 0;
-            background-color: #688D27;
-        }
-        /* 介紹 */
-        .textsize{
-            font-size: 15px;
-        }
-        .title1 {
-            padding-top: 50px;
-        }
-        .title2{
-            padding-top:25px;
-            padding-bottom: 25px;
-        }
-    }
-    </style>
 </head>
 
 <body>
-
     <div id="all">
         <!-- 導覽列 -->
         <div id="header">
@@ -191,18 +29,17 @@
                                 <a class="nav-link " href="#">關於山腳傳奇</a>
                             </li>
                             <li class="nav-item text-center">
-                                <a class=" nav-link" href="#">產品介紹</a>
+                                <a class=" nav-link" href="product.html">產品介紹</a>
                             </li>
                             <li class="nav-item text-center">
-                                <a class=" nav-link" href="#">Q&A</a>
+                                <a class=" nav-link" href="q_and_a.html">Q&A</a>
                             </li>
                             <li class="nav-item text-center">
-                                <a class=" nav-link" href="#">好評推薦</a>
+                                <a class=" nav-link" href="recommend.html">好評推薦</a>
                             </li>
                             <li class="nav-item text-center">
-                                <a class=" nav-link" href="#">聯絡我們</a>
+                                <a class=" nav-link" href="contact_us.html">聯絡我們</a>
                             </li>
-
                         </ul>
                     </div>
                 </div>
