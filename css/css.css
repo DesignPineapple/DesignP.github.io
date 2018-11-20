@@ -46,7 +46,7 @@ body{
 #bannerContent{
     max-height: 800px;
 }
-#banner .active{
+#banner #carouselExampleControls #bannerContent .carousel-item.active{
     transform: scale(1.5);
     transition: 2s;
 }
