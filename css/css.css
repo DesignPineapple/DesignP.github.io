@@ -46,7 +46,7 @@ body{
 #bannerContent{
     max-height: 800px;
 }
-.active{
+#banner .active{
     transform: scale(1.5);
     transition: 2s;
 }
