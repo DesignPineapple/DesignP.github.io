@@ -1,0 +1,609 @@
+/* 整體設定 */
+*{
+    font-family:"微軟正黑體";
+    color: #40332d;
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* navbar */
+.navcolor{
+    background-color: #E8CF70;
+    z-index: 1;
+}
+.logo{
+    height: 70px;
+}
+.textsize{
+    font-size: 25px;
+}
+#header{
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 999;
+}
+
+/* navbar list:hover */
+#navbarNav ul li a{
+    color: #526401;
+    font-weight: bold;
+}
+#navbarNav ul li a:hover{
+    color: #e07b1c;
+}
+#navbarNav ul li a:active{
+    color: #d82708;
+}
+
+/* 首頁_關於山腳傳奇 */
+/* 輪播 */
+#banner{
+    padding-top: 86px;
+}
+#bannerContent{
+    max-height: 800px;
+}
+.active{
+    transform: scale(1.5);
+    transition: 2s;
+}
+.img_size{
+    background-position: center;
+    background-size: cover;
+}
+
+/* 介紹 */
+h1{
+    margin: 0;
+    font-size: 50px;
+}
+h2{
+    margin: 0;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+p{
+    padding: 20px;
+    font-size: 20px;
+}
+#About{
+    background-image: url("../img/03_bg/01_about_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.titleA{
+    margin: 0;
+}
+.title1{
+    padding-top: 100px;
+}
+.title2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* 產品介紹 */
+.productTitle {
+    text-align: center;
+    font-size: 30px;
+    margin:4rem 0 3rem 0;
+    font-weight: bold;
+}
+#Product h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* 產品選項 */
+#Product {
+    padding-top: 96px;
+    background-color: rgb(253, 245, 212);
+}
+.product-item-title{
+    margin-bottom: 2rem;
+}
+.productItem{
+    max-width: 480px;
+}
+.productRow{
+    justify-content: space-evenly;
+}
+#carouselExampleIndicators{
+    margin-bottom: 2rem;
+}
+#carouselExampleIndicators_a{
+    margin-bottom: 2rem;
+}
+
+/* 按鈕 */
+.product-item-list{
+    margin-bottom: 5rem;
+}
+.item-list-btn{
+    height: 25px;
+    width: 100px;
+    float: left;
+    margin-right: 20px; 
+}
+.btnStyleLeft{
+    background-color: #7d7d7d;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+.btnleft {
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+.btnleft img{
+    margin-bottom: 3px;
+}
+.btn_M {
+    height: 100%;
+    width: 50%;
+    float: left;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    border-top: 2px solid #7d7d7d;
+    border-bottom: 2px solid #7d7d7d;
+}
+.btnStyleRight{
+    background-color: #7d7d7d;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+.btnright {
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+.btnright img{
+    margin-bottom: 5px;
+}
+ul {
+    margin-top: 20px;
+    padding: 0;
+}
+ul li {
+    list-style-type: none;
+    font-size: 20px;
+}
+.item-list-04{
+    margin-bottom: 3rem;
+}
+.item-list-01_all{
+    margin-bottom: 3rem;
+}
+.item-list-buy{
+    text-align: center;
+}
+.buyIt{
+    background-color: #af1f1f;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 50px;
+}
+
+/* 按鈕:hover */
+.btnStyleLeft:hover{
+    background-color: #bbbbbb;
+}
+.btnStyleLeft:active{
+    background-color: #4e4e4e;
+}
+.btnStyleRight:hover{
+    background-color: #bbbbbb;
+}
+.btnStyleRight:active{
+    background-color: #4e4e4e;
+}
+.buyIt:hover{
+    background-color: #dd1515;
+}
+.buyIt:active{
+    background-color: #910000;
+}
+
+/* Q&A */
+/* 內容 */
+#question_and_answer{
+    background-color: #ECE0B3;
+    padding-top: 150px;
+    padding-bottom: 570px;
+    background-image: url("../img/03_bg/02_QandA_bg_03.png");
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#question_and_answer #center{
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+}
+/* Q&A標題 */
+#q_and_a{
+    width: 100%;
+}
+#q_and_a_title{
+    font-size: 50pt;
+    font-weight: bold;
+    color: #3D332A;
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* 產品注意事項 */
+.allcard{
+    background: rgba(255, 255, 255, 0.7);
+}
+#list_12{/* 第12項白底顏色加深 */
+    background: rgba(255, 255, 255, 0.8);
+}
+.allcollapse{
+    background: rgba(238, 249, 210, 0.6);
+}
+.alltitle{
+    font-size: 25pt;
+    font-weight: bold;
+    color: #4F4E4E;
+    text-align: left;
+    padding: 15px 30px;
+    float: left;
+}
+.alltext{
+    font-size: 18pt;
+}
+.down_arrow{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 25px 0 25px;
+    border-color: #375103 transparent transparent transparent;
+    float:right;
+    margin-top: 21px;
+}
+
+/* 好評推薦 */
+/* 內容 */
+#container{
+    background-color: #EEE1B4;
+    padding-top: 180px;
+    padding-bottom: 150px;
+    background-image: url("../img/03_bg/03_recommend_bg.png");
+    background-size: cover;
+    background-position: center;
+}
+#center{
+    width: 100%;
+    
+/* 標題 */
+}
+#title{
+    padding-bottom: 30px;
+}
+#title_recommend{
+    font-weight: bold;
+    text-align: center;
+}
+
+/* 影片輪播 */
+#video{
+    padding-bottom: 100px;
+}
+
+/* 部落格內容 */
+#blog{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    margin-left: auto;
+    margin-right: auto;
+}
+#blog_title{
+    width: 160px;
+    height: 100%;
+    border: solid 1px black;
+    /* border-right: none; */
+}
+#blog_title_text{
+    writing-mode: vertical-lr;
+    letter-spacing: 20px;
+    margin: 0;
+    margin-left: 60px;
+    margin-top: 250px;
+}
+#blog_content{
+    width: 800px;
+    height: 100%;
+    border: solid 1px black;
+}
+#blogger01{
+    height: 12.5%;
+    border: solid 1px black;
+    font-size: 30px;
+}
+#blogger01_link{
+    padding-top: 23px;
+    padding-left: 30px;
+}
+#blogger02{
+    height: 12.5%;
+    border: solid 1px black;
+    font-size: 30px;
+}
+#blogger02_link{
+    padding-top: 23px;
+    padding-left: 30px;
+}
+#blogger03{
+    height: 12.5%;
+    border: solid 1px black;
+    font-size: 30px;
+}
+#blogger03_link{
+    padding-top: 23px;
+    padding-left: 30px;
+}
+#blogger04{
+    height: 12.5%;
+    border: solid 1px black;
+    font-size: 30px;
+}
+#blogger04_link{
+    padding-top: 23px;
+    padding-left: 30px;
+}
+#blogger05{
+    height: 12.5%;
+    border: solid 1px black;
+    font-size: 30px;
+}
+#blogger05_link{
+    padding-top: 23px;
+    padding-left: 30px;
+}
+#blogger06{
+    height: 12.5%;
+    border: solid 1px black;
+    font-size: 30px;
+}
+#blogger06_link{
+    padding-top: 23px;
+    padding-left: 30px;
+}
+#blogger07{
+    height: 12.5%;
+    border: solid 1px black;
+    font-size: 30px;
+}
+#blogger07_link{
+    padding-top: 23px;
+    padding-left: 30px;
+}
+#blogger08{
+    border: solid 1px black;
+    height: 12.5%;
+    font-size: 30px;
+}
+#blogger08_link{
+    padding-top: 23px;
+    padding-left: 30px;
+}
+.bloger{
+    margin-bottom: 50px;
+}
+
+/* iframe */
+.iframe {
+    width: 100%; height: 500px;
+}
+
+/* 連絡我們 */
+/* content */
+#contactUsContent{
+    background-image: url("../img/05_contactUs/contactUs.jpg");
+    padding-top: 96px;
+    background-size:1900px 930px;
+}
+.form-size{
+    width: 960px;
+}
+.contactUsh1{
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-weight:bold;
+}
+#content_A{
+    /* background-color: blueviolet; */
+    padding-bottom: 96px;
+}
+.line{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#contactUsContent input{
+    height: 40px;
+}
+#contactUsContent span{
+    background-color: #DB933A;
+    font-weight:bold;
+    width:75px;
+    height: 25px;
+    display: inline-block;
+    text-align:center;
+}
+#boxBig{
+    height: 100px;
+}
+.content-start {
+    margin-left: 75px;
+}
+
+/* footer */
+#footer{
+    background-color: #DBB859;
+    height: 80px;
+}
+#footerContent{
+    padding:.5rem 12rem 0 12rem;
+}
+#footerContent .row{
+    justify-content: center;
+}
+img#footerLogo{
+    max-width: 90px;
+}
+#footerText{
+    max-width: 400px;
+    padding-top: .5rem;
+}
+#footerText p{
+    padding: 0;
+    margin: 0;
+    font-size: 1.1rem;
+}
+#footerFbContent{
+    padding-top: .7rem;
+}
+img#footerFb{
+    max-width: 40px;
+}
+
+/* @media */
+@media only screen and (max-width: 1200px) {
+    /* 連絡我們 */
+    /* content */
+    .content-start {
+        margin-left:0;
+    }
+}
+@media only screen and (max-width:992px){
+    .logo{
+        height: 60px;
+    }
+
+    /* Q&A */
+    #question_and_answer{
+        padding-top: 130px;
+        padding-bottom: 440px;
+    }
+    #q_and_a_title{
+        font-size: 45pt;
+        margin-bottom: 36px;
+    }
+    .alltitle{
+        font-size: 20pt;
+        /* color: red; */
+        padding: 8px 20px;
+    }
+    .alltext{
+        font-size: 16pt;
+    }
+    .down_arrow{
+        border-width: 20px 20px 0 20px;
+        margin-top: 16px;
+    }
+
+    /* footer */
+    #footer{
+        min-height: 200px;
+    }
+    #footerContent{
+        padding:15px 0;
+        max-width: calc(100% - 30px);
+    }
+    #footerText p{
+        font-size: .9rem;
+    }
+}
+@media only screen and (max-width:768px){
+    /* Q&A */
+    #question_and_answer{
+        padding-top: 125px;
+        padding-bottom: 380px;
+    }
+    #q_and_a_title{
+        font-size: 40pt;
+        margin-bottom: 28px;
+    }
+    .alltitle{
+        /* color: blue; */
+        font-size: 18pt;
+        padding: 6px 16px;
+    }
+    .alltext{
+        font-size: 14pt;
+    }
+    .down_arrow{
+        border-width: 15px 15px 0 15px;
+        margin-top: 13px;
+    }  
+}
+@media only screen and (max-width:576px){
+    /* Q&A */
+    #question_and_answer{
+        padding-top: 120px;
+        padding-bottom: 300px;
+    }
+    #q_and_a_title{
+        font-size: 32pt;
+        margin-bottom: 23px;
+    }
+    .alltitle{
+        /* color: green; */
+        font-size: 16pt;
+        padding: 4px 10px;
+    }
+    .alltext{
+        font-size: 12pt;
+    }
+    .down_arrow{
+        border-width: 12px 12px 0 12px;
+        margin-top: 11px;
+    }
+}
+/* 好評推薦@media */
+@media only screen and (max-width:959px){
+    .iframe {
+        height: 450px;
+    }
+}
+@media only screen and (max-width:767px){
+    .iframe {
+        height: 400px;
+    }
+}
+@media only screen and (max-width:639px){
+    .iframe {
+        height: 350px;
+    }
+}
+@media only screen and (max-width:479px){
+    .iframe {
+        height: 250px;
+    }
+}
+/* 好評推薦@media fin*/
+
+@media only screen and (max-width: 376px){
+    /* navbar */
+    #header{
+        padding: 0;
+        margin: 0;
+    }
+
+    /* 介紹 */
+    .textsize{
+        font-size: 15px;
+    }
+    .title1 {
+        padding-top: 50px;
+    }
+    .title2{
+        padding-top:25px;
+        padding-bottom: 25px;
+    }
+}
