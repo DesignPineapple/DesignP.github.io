@@ -192,10 +192,25 @@ ul li {
     padding: 10px 50px;
 }
 /* 11/12+-按鈕 padding */
-#a_one_p,#a_two_p,#a_three_p,#a_four_p{
+#a_one_p{
     padding-right: 6px;
     padding-left: 6px;
-    padding-bottom: 1px;
+   
+}
+#a_two_p,{
+    padding-right: 6px;
+    padding-left: 6px;
+   
+}
+#a_three_p{
+    padding-right: 6px;
+    padding-left: 6px;
+   
+}
+#a_four_p{
+    padding-right: 6px;
+    padding-left: 6px;
+    
 }
 
 /* 按鈕:hover */
