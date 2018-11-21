@@ -107,6 +107,9 @@ p{
 .product-item-title{
     margin-bottom: 2rem;
 }
+.carousel-indicators {
+    bottom: -4px;
+}
 .productItem{
     max-width: 480px;
 }
