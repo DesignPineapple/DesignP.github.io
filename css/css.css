@@ -406,7 +406,8 @@ ul li {
 #contactUsContent{
     background-image: url("../img/05_contactUs/contactUs.jpg");
     padding-top: 96px;
-    background-size:1900px 930px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .form-size{
     width: 960px;
@@ -440,6 +441,10 @@ ul li {
 }
 .content-start {
     margin-left: 75px;
+}
+.form-control{
+    max-height: 230px;
+    height: 150px;
 }
 
 /* footer */
