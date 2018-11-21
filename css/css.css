@@ -191,6 +191,12 @@ ul li {
     color: #FFFFFF;
     padding: 10px 50px;
 }
+/* 11/12+-按鈕 padding */
+#a_one_p,#a_two_p,#a_three_p,#a_four_p{
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-bottom: 1px;
+}
 
 /* 按鈕:hover */
 .btnStyleLeft:hover{
