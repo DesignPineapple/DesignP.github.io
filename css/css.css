@@ -89,7 +89,7 @@ p{
 /* 產品介紹 */
 .productTitle {
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     margin:4rem 0 3rem 0;
     font-weight: bold;
 }
@@ -247,7 +247,7 @@ ul li {
     background: rgba(238, 249, 210, 0.6);
 }
 .alltitle{
-    font-size: 25pt;
+    font-size: 24px;
     font-weight: bold;
     color: #4F4E4E;
     text-align: left;
@@ -255,7 +255,7 @@ ul li {
     float: left;
 }
 .alltext{
-    font-size: 18pt;
+    font-size: 18px;
 }
 .down_arrow{
     width: 0;
@@ -495,12 +495,12 @@ img#footerFb{
         margin-bottom: 36px;
     }
     .alltitle{
-        font-size: 20pt;
+        font-size: 20px;
         /* color: red; */
         padding: 8px 20px;
     }
     .alltext{
-        font-size: 16pt;
+        font-size: 16px;
     }
     .down_arrow{
         border-width: 20px 20px 0 20px;
@@ -531,11 +531,7 @@ img#footerFb{
     }
     .alltitle{
         /* color: blue; */
-        font-size: 18pt;
         padding: 6px 16px;
-    }
-    .alltext{
-        font-size: 14pt;
     }
     .down_arrow{
         border-width: 15px 15px 0 15px;
@@ -554,7 +550,7 @@ img#footerFb{
     }
     .alltitle{
         /* color: green; */
-        font-size: 16pt;
+        font-size: 18px;
         padding: 4px 10px;
     }
     .alltext{
