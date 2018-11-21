@@ -125,6 +125,7 @@ p{
 }
 input {
     border-radius: 0;
+    padding: 0;
 }
 .item-list-btn{
     height: 25px;
