@@ -123,6 +123,9 @@ p{
 .product-item-list{
     margin-bottom: 5rem;
 }
+input {
+    border-radius: 0;
+}
 .item-list-btn{
     height: 25px;
     width: 100px;
