@@ -576,7 +576,9 @@ img#footerFb{
         border-width: 12px 12px 0 12px;
         margin-top: 11px;
     }
-}
+    h1{
+        font-size: 40px;
+    }
 /* 好評推薦@media */
 @media only screen and (max-width:959px){
     .iframe {
