@@ -12,6 +12,7 @@ body{
 .navcolor{
     background-color: #E8CF70;
     z-index: 1;
+    opacity:0.95;
 }
 .logo{
     height: 70px;
@@ -89,7 +90,7 @@ p{
 /* 產品介紹 */
 .productTitle {
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     margin:4rem 0 3rem 0;
     font-weight: bold;
 }
@@ -105,6 +106,9 @@ p{
 }
 .product-item-title{
     margin-bottom: 2rem;
+}
+.carousel-indicators {
+    bottom: -4px;
 }
 .productItem{
     max-width: 480px;
@@ -123,6 +127,10 @@ p{
 .product-item-list{
     margin-bottom: 5rem;
 }
+input {
+    border-radius: 0;
+    padding: 0;
+}
 .item-list-btn{
     height: 25px;
     width: 100px;
@@ -132,12 +140,15 @@ p{
 .btnStyleLeft{
     background-color: #7d7d7d;
     border: none;
+    padding-top: 1px;
+    padding-left: 7px;
     border-radius: 5px 0 0 5px;
 }
 .btnleft {
     height: 100%;
     width: 25%;
     float: left;
+    
 }
 .btnleft img{
     margin-bottom: 3px;
@@ -155,6 +166,8 @@ p{
 .btnStyleRight{
     background-color: #7d7d7d;
     border: none;
+    padding-top: 1px;
+    padding-left: 7px;
     border-radius: 0 5px 5px 0;
 }
 .btnright {
@@ -163,7 +176,8 @@ p{
     float: left;
 }
 .btnright img{
-    margin-bottom: 5px;
+    padding-bottom: 4px;
+    padding-left: 1px;
 }
 ul {
     margin-top: 20px;
@@ -247,7 +261,7 @@ ul li {
     background: rgba(238, 249, 210, 0.6);
 }
 .alltitle{
-    font-size: 25pt;
+    font-size: 24px;
     font-weight: bold;
     color: #4F4E4E;
     text-align: left;
@@ -255,7 +269,7 @@ ul li {
     float: left;
 }
 .alltext{
-    font-size: 18pt;
+    font-size: 18px;
 }
 .down_arrow{
     width: 0;
@@ -406,7 +420,8 @@ ul li {
 #contactUsContent{
     background-image: url("../img/05_contactUs/contactUs.jpg");
     padding-top: 96px;
-    background-size:1900px 930px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .form-size{
     width: 960px;
@@ -441,6 +456,10 @@ ul li {
 }
 .content-start {
     margin-left: 75px;
+}
+.form-control{
+    max-height: 230px;
+    height: 150px;
 }
 
 /* footer */
@@ -496,12 +515,12 @@ img#footerFb{
         margin-bottom: 36px;
     }
     .alltitle{
-        font-size: 20pt;
+        font-size: 20px;
         /* color: red; */
         padding: 8px 20px;
     }
     .alltext{
-        font-size: 16pt;
+        font-size: 16px;
     }
     .down_arrow{
         border-width: 20px 20px 0 20px;
@@ -532,11 +551,7 @@ img#footerFb{
     }
     .alltitle{
         /* color: blue; */
-        font-size: 18pt;
         padding: 6px 16px;
-    }
-    .alltext{
-        font-size: 14pt;
     }
     .down_arrow{
         border-width: 15px 15px 0 15px;
@@ -555,7 +570,7 @@ img#footerFb{
     }
     .alltitle{
         /* color: green; */
-        font-size: 16pt;
+        font-size: 18px;
         padding: 4px 10px;
     }
     .alltext{
@@ -565,7 +580,9 @@ img#footerFb{
         border-width: 12px 12px 0 12px;
         margin-top: 11px;
     }
-}
+    h1{
+        font-size: 40px;
+    }
 /* 好評推薦@media */
 @media only screen and (max-width:959px){
     .iframe {
