@@ -965,6 +965,12 @@ img#footerFb {
                     overflow: hidden;
                     text-overflow: ellipsis;
                   }
+                .container-fluid{
+                    padding: 0;
+                }
+                .container{
+                    padding: 0;
+                }
             }
 
             @media only screen and (max-width:479px) {
