@@ -91,16 +91,16 @@
                     <div class="container">
                         <H1>部落客</H1>
                         <ul class="list-group bloger">
-                            <li class="list-group-item"><a href="http://blog.udn.com/viki021013/12501434">豔子藤-《豔子藤就是愛美食》</a></li>
-                            <li class="list-group-item"><a href="http://smartrabbit.pixnet.net/blog/post/33634617">狡兔-《精彩式吃文》</a></li>
-                            <li class="list-group-item"><a href="http://pi73713.pixnet.net/blog/post/56613411">三三-《三三的山猛海試》</a></li>
-                            <li class="list-group-item"><a href="http://grace540102.pixnet.net/blog/post/40951924">龜毛麗-《龜毛麗的美食誌》</a></li>
-                            <li class="list-group-item"><a href="https://fgblog.fashionguide.com.tw/3670/posts/162320">Vicky-《Vickey
-                                    Loves Beauty-網購美食》</a></li>
-                            <li class="list-group-item"><a href="http://sophiadayy.pixnet.net/blog/post/4618028">紅茶拿鐵-《紅茶拿鐵6號-團購試吃》</a></li>
-                            <li class="list-group-item"><a href="http://summuslovecyndi.pixnet.net/blog/post/360415289
-                                ">芯小荻-《團購美食-土鳳梨酥推薦》</a></a></li>
-                            <li class="list-group-item"><a href="http://dressingfrad.pixnet.net/blog/post/360014903-%E5%BD%B0%E5%8C%96-%E5%B1%B1%E8%85%B3%E5%82%B3%E5%A5%87-%E5%9C%9F%E9%B3%B3%E6%A2%A8%E9%85%A5-%E6%9D%8F%E4%BB%81%E8%A7%92%E5%9C%9F%E9%B3%B3%E6%A2%A8%E9%85%A5-%E9%85%B8">Dressingfrad的食記分享-《dressingfrad不正食記分享》</a></li>
+                            <li class="list-group-item"><a class="btn-6" href="http://blog.udn.com/viki021013/12501434">豔子藤-《豔子藤就是愛美食》<span></span></a></li>
+                            <li class="list-group-item"><a class="btn-6" href="http://smartrabbit.pixnet.net/blog/post/33634617">狡兔-《精彩式吃文》<span></span></a></li>
+                            <li class="list-group-item"><a class="btn-6" href="http://pi73713.pixnet.net/blog/post/56613411">三三-《三三的山猛海試》<span></span></a></li>
+                            <li class="list-group-item"><a class="btn-6" href="http://grace540102.pixnet.net/blog/post/40951924">龜毛麗-《龜毛麗的美食誌》<span></span></a></li>
+                            <li class="list-group-item"><a class="btn-6" href="https://fgblog.fashionguide.com.tw/3670/posts/162320">Vicky-《Vickey
+                                    Loves Beauty-網購美食》<span></span></a></li>
+                            <li class="list-group-item"><a class="btn-6" href="http://sophiadayy.pixnet.net/blog/post/4618028">紅茶拿鐵-《紅茶拿鐵6號-團購試吃》<span></span></a></li>
+                            <li class="list-group-item"><a class="btn-6" href="http://summuslovecyndi.pixnet.net/blog/post/360415289
+                                ">芯小荻-《團購美食-土鳳梨酥推薦》<span></span></a></a></li>
+                            <li class="list-group-item"><a class="btn-6" href="http://dressingfrad.pixnet.net/blog/post/360014903-%E5%BD%B0%E5%8C%96-%E5%B1%B1%E8%85%B3%E5%82%B3%E5%A5%87-%E5%9C%9F%E9%B3%B3%E6%A2%A8%E9%85%A5-%E6%9D%8F%E4%BB%81%E8%A7%92%E5%9C%9F%E9%B3%B3%E6%A2%A8%E9%85%A5-%E9%85%B8">Dressingfrad -《dressingfrad不正食記分享》<span></span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -118,10 +118,10 @@
                         <p>copyright © 2018 山腳傳奇（榮貴糕餅公司）</p>
                     </div>
                     <div id="footerFbContent" class="col-lg-2 .col-md-12">
-                            <a href="https://zh-tw.facebook.com/%E5%B1%B1%E8%85%B3%E5%82%B3%E5%A5%87%E5%9C%9F%E9%B3%B3%E6%A2%A8%E9%85%A5-236488006373092/">
-                                <img id="footerFb" src="img/08_footer/fb.png" alt="">
-                            </a>
-                        </div>
+                        <a href="https://zh-tw.facebook.com/%E5%B1%B1%E8%85%B3%E5%82%B3%E5%A5%87%E5%9C%9F%E9%B3%B3%E6%A2%A8%E9%85%A5-236488006373092/">
+                            <img id="footerFb" src="img/08_footer/fb.png" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -134,7 +134,24 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
-    
+    <script>
+        $(function () {
+            $('.btn-6')
+                .on('mouseenter', function (e) {
+                    var parentOffset = $(this).offset(),
+                        relX = e.pageX - parentOffset.left,
+                        relY = e.pageY - parentOffset.top;
+                    $(this).find('span').css({ top: relY, left: relX })
+                })
+                .on('mouseout', function (e) {
+                    var parentOffset = $(this).offset(),
+                        relX = e.pageX - parentOffset.left,
+                        relY = e.pageY - parentOffset.top;
+                    $(this).find('span').css({ top: relY, left: relX })
+                });
+            $('[href=#]').click(function () { return false });
+        });
+    </script>
 
 </body>
 
