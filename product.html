@@ -7,6 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="https://yourwebsite.com/style.css">
+    <link rel="stylesheet" href="https://codepen.io/username/pen/aBcDef">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
     <title>山腳傳奇-產品介紹</title>
 </head>
 
@@ -104,7 +108,7 @@
                                         <img src="img/04_produce/04-btn/M.png" alt="">
                                     </div>
                                     <input id="o_two_num" class="btn_M" type="text" value="0" name="name"></input>
-                                    <div id="o_two_p" class="btnright btnStyleRight"  name="button">
+                                    <div id="o_two_p" class="btnright btnStyleRight" name="button">
                                         <img src="img/04_produce/04-btn/P.png" alt="">
                                     </div>
                                 </div>
@@ -140,32 +144,58 @@
                                     <li>20入禮盒-二盒一袋(240元/組)</li>
                                 </ul>
                             </div>
-                            <div class="item-list-buy">
-                                <button type="button" class="buyIt" data-toggle="modal" data-target="#buyItModal">放入購物車</button>
-                                <!-- Modal -->
-                                <div class="modal fade " id="buyItModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                                    aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">訊息</h5>
-                                            </div>
-                                            <div class="modal-body">
-                                                已放入購物車。
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                            </div>
+                            <div class="divcolor">
+                                <div class="item-list-buy">
+                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="goo">
+                                        <defs>
+                                            <filter id="goo">
+                                                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                                                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                                                    result="goo" />
+                                                <feComposite in="SourceGraphic" in2="goo" />
+                                            </filter>
+                                        </defs>
+                                    </svg>
+                                    <span class="div button--bubble__container">
+                                        <button type="button" class="buyIt button--bubble" data-toggle="modal"
+                                            data-target="#buyItModal">放入購物車
+                                        </button>
+                                        <span class="button--bubble__effect-container">
+                                            <span class="circle top-left"></span>
+                                            <span class="circle top-left"></span>
+                                            <span class="circle top-left"></span>
+                                            <span class="button effect-button"></span>
+                                            <span class="circle bottom-right"></span>
+                                            <span class="circle bottom-right"></span>
+                                            <span class="circle bottom-right"></span>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- Modal -->
+                            <div class="modal fade " id="buyItModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">訊息</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            已放入購物車。
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Modal fin-->
                             </div>
+                            <!-- Modal fin-->
                         </div>
                     </div>
+
                     <div id="productB" class="productItem col-lg-6 col-md-12">
                         <h2 class="product-item-title">杏仁角土鳳梨酥 50g/個</h2>
-                        <div id="carouselExampleIndicators_a" class="carousel slide" data-ride="carousel">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
                                 <li data-target="#carouselExampleIndicators_a" data-slide-to="0" class="active"></li>
                                 <li data-target="#carouselExampleIndicators_a" data-slide-to="1"></li>
@@ -204,7 +234,7 @@
                                         <img src="img/04_produce/04-btn/M.png" alt="">
                                     </div>
                                     <input id="a_one_num" class="btn_M" type="text" value="0" name="name"></input>
-                                    <div id="a_one_p" class="btnright btnStyleRight"name="button">
+                                    <div id="a_one_p" class="btnright btnStyleRight" name="button">
                                         <img src="img/04_produce/04-btn/P.png" alt="">
                                     </div>
                                 </div>
@@ -218,9 +248,9 @@
                                         <img src="img/04_produce/04-btn/M.png" alt="">
                                     </div>
                                     <input id="a_two_num" class="btn_M" type="text" value="0" name="name"></input>
-                                    <div id="a_two_p" class="btnright btnStyleRight"name="button">
+                                    <div id="a_two_p" class="btnright btnStyleRight" name="button">
                                         <img src="img/04_produce/04-btn/P.png" alt="">
-                                    </div >
+                                    </div>
                                 </div>
                                 <ul>
                                     <li>10入禮盒(270元/盒)</li>
@@ -254,34 +284,58 @@
                                     <li>16入禮盒(420元/盒)</li>
                                 </ul>
                             </div>
-                            <div class="item-list-buy">
-                                <button type="button" class="buyIt" data-toggle="modal" data-target="#buyItModal">放入購物車</button>
-                                <!-- Modal -->
-                                <div class="modal fade" id="buyItModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                                    aria-hidden="true">
-                                    <div class="modal-dialog" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">訊息</h5>
-                                            </div>
-                                            <div class="modal-body">
-                                                已放入購物車。
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                            </div>
+                            <div class="divcolor">
+                                <div class="item-list-buy">
+                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="goo">
+                                        <defs>
+                                            <filter id="goo">
+                                                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                                                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                                                    result="goo" />
+                                                <feComposite in="SourceGraphic" in2="goo" />
+                                            </filter>
+                                        </defs>
+                                    </svg>
+                                    <span class="div button--bubble__container">
+                                        <button type="button" class="buyIt button--bubble" data-toggle="modal"
+                                            data-target="#buyItModal">放入購物車
+                                        </button>
+                                        <span class="button--bubble__effect-container">
+                                            <span class="circle top-left"></span>
+                                            <span class="circle top-left"></span>
+                                            <span class="circle top-left"></span>
+                                            <span class="button effect-button"></span>
+                                            <span class="circle bottom-right"></span>
+                                            <span class="circle bottom-right"></span>
+                                            <span class="circle bottom-right"></span>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- Modal -->
+                            <div class="modal fade" id="buyItModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">訊息</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            已放入購物車。
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Modal fin-->
                             </div>
+                            <!-- Modal fin-->
                         </div>
                     </div>
-                </div>
-                <div class="row productRow">
+
                     <div id="productC" class="productItem col-lg-6 col-md-12">
                         <h2 class="product-item-title">綜合禮盒</h2>
-                        <div id="carouselExampleIndicators_all">
+                        <div id="carouselExampleIndicators">
                             <div class="all_img">
                                 <img class="w-100" src="img/04_produce/03_else/p_all_450_350.jpg" alt="">
                             </div>
@@ -293,7 +347,7 @@
                                         <img src="img/04_produce/04-btn/M.png" alt="">
                                     </div>
                                     <input id="all_one_num" class="btn_M" type="text" value="0" name="name"></input>
-                                    <div id="all_one_p" class="btnright btnStyleRight"name="button">
+                                    <div id="all_one_p" class="btnright btnStyleRight" name="button">
                                         <img src="img/04_produce/04-btn/P.png" alt="">
                                     </div>
                                 </div>
@@ -301,54 +355,78 @@
                                     <li>原味*8+杏仁角*8(300元/盒)</li>
                                 </ul>
                             </div>
-                            <div class="item-list-buy">
-                                <button type="button" class="buyIt" data-toggle="modal" data-target="#buyItModal">放入購物車</button>
-                                <!-- Modal -->
-                                <div class="modal fade" id="buyItModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                                    aria-hidden="true">
-                                    <div class="modal-dialog" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">訊息</h5>
-                                            </div>
-                                            <div class="modal-body">
-                                                已放入購物車。
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                            </div>
+                            <div class="divcolor">
+                                <div class="item-list-buy">
+                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="goo">
+                                        <defs>
+                                            <filter id="goo">
+                                                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                                                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                                                    result="goo" />
+                                                <feComposite in="SourceGraphic" in2="goo" />
+                                            </filter>
+                                        </defs>
+                                    </svg>
+                                    <span class="div button--bubble__container">
+                                        <button type="button" class="buyIt button--bubble" data-toggle="modal"
+                                            data-target="#buyItModal">放入購物車
+                                        </button>
+                                        <span class="button--bubble__effect-container">
+                                            <span class="circle top-left"></span>
+                                            <span class="circle top-left"></span>
+                                            <span class="circle top-left"></span>
+                                            <span class="button effect-button"></span>
+                                            <span class="circle bottom-right"></span>
+                                            <span class="circle bottom-right"></span>
+                                            <span class="circle bottom-right"></span>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- Modal -->
+                            <div class="modal fade" id="buyItModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">訊息</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            已放入購物車。
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Modal fin-->
                             </div>
+                            <!-- Modal fin-->
                         </div>
-                    </div>
-                    <div id="productC" class="productItem col-lg-6 col-md-12">
                     </div>
                 </div>
             </div>
         </div>
-        <!-- footer -->
-        <div id="footer">
-            <div id="footerContent" class="container-fluid text-center copyrights">
-                <div class="row">
-                    <div id="footerLogoContent" class="col-lg-2 .col-md-12">
-                        <img id="footerLogo" src="img/01_Logo/Logo_04.png" alt="">
-                    </div>
-                    <div id="footerText" class="col-lg-8 .col-md-12">
-                        <p>營業時段：上午8:00 - 下午7:00</p>
-                        <p>copyright © 2018 山腳傳奇（榮貴糕餅公司）</p>
-                    </div>
-                    <div id="footerFbContent" class="col-lg-2 .col-md-12">
-                            <a href="https://zh-tw.facebook.com/%E5%B1%B1%E8%85%B3%E5%82%B3%E5%A5%87%E5%9C%9F%E9%B3%B3%E6%A2%A8%E9%85%A5-236488006373092/">
-                                <img id="footerFb" src="img/08_footer/fb.png" alt="">
-                            </a>
-                        </div>
+    </div>
+    <!-- footer -->
+    <div id="footer">
+        <div id="footerContent" class="container-fluid text-center copyrights">
+            <div class="row">
+                <div id="footerLogoContent" class="col-lg-2 .col-md-12">
+                    <img id="footerLogo" src="img/01_Logo/Logo_04.png" alt="">
+                </div>
+                <div id="footerText" class="col-lg-8 .col-md-12">
+                    <p>營業時段：上午8:00 - 下午7:00</p>
+                    <p>copyright © 2018 山腳傳奇（榮貴糕餅公司）</p>
+                </div>
+                <div id="footerFbContent" class="col-lg-2 .col-md-12">
+                    <a href="https://zh-tw.facebook.com/%E5%B1%B1%E8%85%B3%E5%82%B3%E5%A5%87%E5%9C%9F%E9%B3%B3%E6%A2%A8%E9%85%A5-236488006373092/">
+                        <img id="footerFb" src="img/08_footer/fb.png" alt="">
+                    </a>
                 </div>
             </div>
         </div>
-        <!-- 底 -->
+    </div>
+    <!-- 底 -->
     </div>
     <!-- bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -357,6 +435,8 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
+
+
     <script>
         // 原味選項一
         var o_one_p = document.querySelector("#o_one_p");
@@ -494,9 +574,146 @@
                 all_one_num.value = parseInt(all_one_num.value) - 1;
             }
         };
-
-
     </script>
+    <!--購物按鈕JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/easing/EasePack.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenLite.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineLite.min.js"></script>
+    <script>
+        $('.button--bubble').each(function () {
+            var $circlesTopLeft = $(this).parent().find('.circle.top-left');
+            var $circlesBottomRight = $(this).parent().find('.circle.bottom-right');
+
+            var tl = new TimelineLite();
+            var tl2 = new TimelineLite();
+
+            var btTl = new TimelineLite({
+                paused: true
+            });
+
+            tl.to($circlesTopLeft, 1.2, {
+                x: -25,
+                y: -25,
+                scaleY: 2,
+                ease: SlowMo.ease.config(0.1, 0.7, false)
+            });
+            tl.to($circlesTopLeft.eq(0), 0.1, {
+                scale: 0.2,
+                x: '+=6',
+                y: '-=2'
+            });
+            tl.to($circlesTopLeft.eq(1), 0.1, {
+                scaleX: 1,
+                scaleY: 0.8,
+                x: '-=10',
+                y: '-=7'
+            }, '-=0.1');
+            tl.to($circlesTopLeft.eq(2), 0.1, {
+                scale: 0.2,
+                x: '-=15',
+                y: '+=6'
+            }, '-=0.1');
+            tl.to($circlesTopLeft.eq(0), 1, {
+                scale: 0,
+                x: '-=5',
+                y: '-=15',
+                opacity: 0
+            });
+            tl.to($circlesTopLeft.eq(1), 1, {
+                scaleX: 0.4,
+                scaleY: 0.4,
+                x: '-=10',
+                y: '-=10',
+                opacity: 0
+            }, '-=1');
+            tl.to($circlesTopLeft.eq(2), 1, {
+                scale: 0,
+                x: '-=15',
+                y: '+=5',
+                opacity: 0
+            }, '-=1');
+
+            var tlBt1 = new TimelineLite();
+            var tlBt2 = new TimelineLite();
+
+            tlBt1.set($circlesTopLeft, {
+                x: 0,
+                y: 0,
+                rotation: -45
+            });
+            tlBt1.add(tl);
+
+            tl2.set($circlesBottomRight, {
+                x: 0,
+                y: 0
+            });
+            tl2.to($circlesBottomRight, 1.1, {
+                x: 30,
+                y: 30,
+                ease: SlowMo.ease.config(0.1, 0.7, false)
+            });
+            tl2.to($circlesBottomRight.eq(0), 0.1, {
+                scale: 0.2,
+                x: '-=6',
+                y: '+=3'
+            });
+            tl2.to($circlesBottomRight.eq(1), 0.1, {
+                scale: 0.8,
+                x: '+=7',
+                y: '+=3'
+            }, '-=0.1');
+            tl2.to($circlesBottomRight.eq(2), 0.1, {
+                scale: 0.2,
+                x: '+=15',
+                y: '-=6'
+            }, '-=0.2');
+            tl2.to($circlesBottomRight.eq(0), 1, {
+                scale: 0,
+                x: '+=5',
+                y: '+=15',
+                opacity: 0
+            });
+            tl2.to($circlesBottomRight.eq(1), 1, {
+                scale: 0.4,
+                x: '+=7',
+                y: '+=7',
+                opacity: 0
+            }, '-=1');
+            tl2.to($circlesBottomRight.eq(2), 1, {
+                scale: 0,
+                x: '+=15',
+                y: '-=5',
+                opacity: 0
+            }, '-=1');
+
+            tlBt2.set($circlesBottomRight, {
+                x: 0,
+                y: 0,
+                rotation: 45
+            });
+            tlBt2.add(tl2);
+
+            btTl.add(tlBt1);
+            btTl.to($(this).parent().find('.button.effect-button'), 0.8, {
+                scaleY: 1.1
+            }, 0.1);
+            btTl.add(tlBt2, 0.2);
+            btTl.to($(this).parent().find('.button.effect-button'), 1.8, {
+                scale: 1,
+                ease: Elastic.easeOut.config(1.2, 0.4)
+            }, 1.2);
+
+            btTl.timeScale(2.6);
+
+            $(this).on('mouseover', function () {
+                btTl.restart();
+            });
+        });
+    </script>
+
+
 </body>
 
 </html>
