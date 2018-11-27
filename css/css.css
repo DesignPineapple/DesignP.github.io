@@ -394,7 +394,6 @@ ul li {
   html, body {
     width: 100%;
     height: 100%;
-    text-align: center;
   }
   
   .button--bubble__container {
@@ -559,7 +558,7 @@ ul li {
 #container {
     background-color: #EEE1B4;
     padding-top: 180px;
-    padding-bottom: 150px;
+    padding-bottom: 110px;
     background-image: url("../img/03_bg/03_recommend_bg.png");
     background-size: cover;
     background-position: center;
@@ -608,6 +607,7 @@ ul li {
     height: 100%;
     border: solid 1px black;
 }
+
 #blogger01 {
     height: 12.5%;
     border: solid 1px black;
@@ -683,7 +683,10 @@ ul li {
 .bloger {
     max-width: 500px;
     margin: 0 auto;
-
+}
+.blogH1{
+    text-align: center;
+    margin-bottom: 10px;
 }
 /* iframe */
 .iframe {
@@ -708,8 +711,10 @@ a:hover {
     border: 1px solid currentColor;
   }
 .btn-6 {
-    color: #740d09;
+    color: #085506;
     margin: 0;
+    font-weight:bold;
+    text-align: center;
   }
   .btn-6 span {
     position: absolute;
@@ -955,6 +960,11 @@ img#footerFb {
                 .iframe {
                     height: 350px;
                 }
+                .btn-6 {
+                    white-space: nowrap; 
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                  }
             }
 
             @media only screen and (max-width:479px) {
