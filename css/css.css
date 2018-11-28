@@ -762,7 +762,7 @@ a:hover {
 
 }
 #contactUsContent .col{
-    flex-grow:0; q
+    flex-grow:0;
 }
 
 .contactUsh1 {
@@ -795,8 +795,6 @@ a:hover {
 }
 .content-start {
     margin-left: 75px;
-}
-.inputsize{
 }
 .form-control {
     max-height: 230px;
@@ -934,6 +932,12 @@ footer a img{
 
             h1 {
                 font-size: 40px;
+            }
+
+            /* 好評推薦@media */
+            #newblog .container{
+                padding-left: 0;
+                padding-right: 0;
             }
         }
 
