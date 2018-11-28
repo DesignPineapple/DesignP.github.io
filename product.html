@@ -54,7 +54,7 @@
         <div id="Product">
             <h1 class="productTitle">產品介紹</h1>
             <div id="productContent" class="container">
-                <div class="row productRow">
+                <div class="row productRow d-flex justify-content-center">
                     <div id="productA" class="productItem col-lg-6 col-md-12">
                         <h2 class="product-item-title">原味土鳳梨酥 30g/個</h2>
                         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -78,6 +78,7 @@
                                     <img class="d-block w-100" src="img/04_produce/01_original/p_o_450_350_20.jpg" alt="Fourth slide">
                                 </div>
                             </div>
+                            <!-- 輪播箭頭 -->
                             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Previous</span>
@@ -87,89 +88,91 @@
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
-                        <div class="product-item-list">
-                            <div class="item-list-01">
-                                <div id="btnA" class="item-list-btn">
-                                    <div id="o_one_m" class="btnleft btnStyleLeft">
-                                        <img src="img/04_produce/04-btn/M.png" alt="">
+                        <div class="container">
+                            <div class="product-item-list">
+                                <div class="item-list-01">
+                                    <div id="btnA" class="item-list-btn">
+                                        <div id="o_one_m" class="btnleft btnStyleLeft">
+                                            <img src="img/04_produce/04-btn/M.png" alt="">
+                                        </div>
+                                        <input id="o_one_num" class="btn_M" type="text" value="0" name="name"></input>
+                                        <div id="o_one_p" class="btnright btnStyleRight" name="button">
+                                            <img src="img/04_produce/04-btn/P.png" alt="">
+                                        </div>
                                     </div>
-                                    <input id="o_one_num" class="btn_M" type="text" value="0" name="name"></input>
-                                    <div id="o_one_p" class="btnright btnStyleRight" name="button">
-                                        <img src="img/04_produce/04-btn/P.png" alt="">
-                                    </div>
+                                    <ul>
+                                        <li>散裝(10元/個)</li>
+                                    </ul>
                                 </div>
-                                <ul>
-                                    <li>散裝(10元/個)</li>
-                                </ul>
-                            </div>
-                            <div class="item-list-02">
-                                <div id="btnB" class="item-list-btn">
-                                    <div id="o_two_m" class="btnleft btnStyleLeft">
-                                        <img src="img/04_produce/04-btn/M.png" alt="">
+                                <div class="item-list-02">
+                                    <div id="btnB" class="item-list-btn">
+                                        <div id="o_two_m" class="btnleft btnStyleLeft">
+                                            <img src="img/04_produce/04-btn/M.png" alt="">
+                                        </div>
+                                        <input id="o_two_num" class="btn_M" type="text" value="0" name="name"></input>
+                                        <div id="o_two_p" class="btnright btnStyleRight" name="button">
+                                            <img src="img/04_produce/04-btn/P.png" alt="">
+                                        </div>
                                     </div>
-                                    <input id="o_two_num" class="btn_M" type="text" value="0" name="name"></input>
-                                    <div id="o_two_p" class="btnright btnStyleRight" name="button">
-                                        <img src="img/04_produce/04-btn/P.png" alt="">
-                                    </div>
+                                    <ul>
+                                        <li>12入禮盒(150元/盒)</li>
+                                    </ul>
                                 </div>
-                                <ul>
-                                    <li>12入禮盒(150元/盒)</li>
-                                </ul>
-                            </div>
-                            <div class="item-list-03">
-                                <div id="btnC" class="item-list-btn">
-                                    <div id="o_three_m" class="btnleft btnStyleLeft">
-                                        <img src="img/04_produce/04-btn/M.png" alt="">
+                                <div class="item-list-03">
+                                    <div id="btnC" class="item-list-btn">
+                                        <div id="o_three_m" class="btnleft btnStyleLeft">
+                                            <img src="img/04_produce/04-btn/M.png" alt="">
+                                        </div>
+                                        <input id="o_three_num" class="btn_M" type="text" value="0" name="name"></input>
+                                        <div id="o_three_p" class="btnright btnStyleRight" name="button">
+                                            <img src="img/04_produce/04-btn/P.png" alt="">
+                                        </div>
                                     </div>
-                                    <input id="o_three_num" class="btn_M" type="text" value="0" name="name"></input>
-                                    <div id="o_three_p" class="btnright btnStyleRight" name="button">
-                                        <img src="img/04_produce/04-btn/P.png" alt="">
-                                    </div>
+                                    <ul>
+                                        <li>15入禮盒(180元/盒)</li>
+                                    </ul>
                                 </div>
-                                <ul>
-                                    <li>15入禮盒(180元/盒)</li>
-                                </ul>
-                            </div>
-                            <div class="item-list-04">
-                                <div id="btnD" class="item-list-btn">
-                                    <div id="o_four_m" class="btnleft btnStyleLeft">
-                                        <img src="img/04_produce/04-btn/M.png" alt="">
+                                <div class="item-list-04">
+                                    <div id="btnD" class="item-list-btn">
+                                        <div id="o_four_m" class="btnleft btnStyleLeft">
+                                            <img src="img/04_produce/04-btn/M.png" alt="">
+                                        </div>
+                                        <input id="o_four_num" class="btn_M" type="text" value="0" name="name"></input>
+                                        <div id="o_four_p" class="btnright btnStyleRight" name="button">
+                                            <img src="img/04_produce/04-btn/P.png" alt="">
+                                        </div>
                                     </div>
-                                    <input id="o_four_num" class="btn_M" type="text" value="0" name="name"></input>
-                                    <div id="o_four_p" class="btnright btnStyleRight" name="button">
-                                        <img src="img/04_produce/04-btn/P.png" alt="">
-                                    </div>
+                                    <ul>
+                                        <li>20入禮盒-二盒一袋(240元/組)</li>
+                                    </ul>
                                 </div>
-                                <ul>
-                                    <li>20入禮盒-二盒一袋(240元/組)</li>
-                                </ul>
-                            </div>
-                            <div class="divcolor">
-                                <div class="item-list-buy">
-                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="goo">
-                                        <defs>
-                                            <filter id="goo">
-                                                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-                                                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
-                                                    result="goo" />
-                                                <feComposite in="SourceGraphic" in2="goo" />
-                                            </filter>
-                                        </defs>
-                                    </svg>
-                                    <span class="div button--bubble__container">
-                                        <button type="button" class="buyIt button--bubble" data-toggle="modal"
-                                            data-target="#buyItModal">放入購物車
-                                        </button>
-                                        <span class="button--bubble__effect-container">
-                                            <span class="circle top-left"></span>
-                                            <span class="circle top-left"></span>
-                                            <span class="circle top-left"></span>
-                                            <span class="button effect-button"></span>
-                                            <span class="circle bottom-right"></span>
-                                            <span class="circle bottom-right"></span>
-                                            <span class="circle bottom-right"></span>
+                                <div class="divcolor">
+                                    <div class="item-list-buy">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="goo">
+                                            <defs>
+                                                <filter id="goo">
+                                                    <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                                                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                                                        result="goo" />
+                                                    <feComposite in="SourceGraphic" in2="goo" />
+                                                </filter>
+                                            </defs>
+                                        </svg>
+                                        <span class="div button--bubble__container">
+                                            <button type="button" class="buyIt button--bubble" data-toggle="modal"
+                                                data-target="#buyItModal">放入購物車
+                                            </button>
+                                            <span class="button--bubble__effect-container">
+                                                <span class="circle top-left"></span>
+                                                <span class="circle top-left"></span>
+                                                <span class="circle top-left"></span>
+                                                <span class="button effect-button"></span>
+                                                <span class="circle bottom-right"></span>
+                                                <span class="circle bottom-right"></span>
+                                                <span class="circle bottom-right"></span>
+                                            </span>
                                         </span>
-                                    </span>
+                                    </div>
                                 </div>
                             </div>
                             <!-- Modal -->
@@ -192,7 +195,6 @@
                             <!-- Modal fin-->
                         </div>
                     </div>
-
                     <div id="productB" class="productItem col-lg-6 col-md-12">
                         <h2 class="product-item-title">杏仁角土鳳梨酥 50g/個</h2>
                         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -227,112 +229,113 @@
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
-                        <div class="product-item-list">
-                            <div class="item-list-01">
-                                <div id="btnA" class="item-list-btn">
-                                    <div id="a_one_m" class="btnleft btnStyleLeft">
-                                        <img src="img/04_produce/04-btn/M.png" alt="">
+                        <div class="container">
+                            <div class="product-item-list">
+                                <div class="item-list-01">
+                                    <div id="btnA" class="item-list-btn">
+                                        <div id="a_one_m" class="btnleft btnStyleLeft">
+                                            <img src="img/04_produce/04-btn/M.png" alt="">
+                                        </div>
+                                        <input id="a_one_num" class="btn_M" type="text" value="0" name="name"></input>
+                                        <div id="a_one_p" class="btnright btnStyleRight" name="button">
+                                            <img src="img/04_produce/04-btn/P.png" alt="">
+                                        </div>
                                     </div>
-                                    <input id="a_one_num" class="btn_M" type="text" value="0" name="name"></input>
-                                    <div id="a_one_p" class="btnright btnStyleRight" name="button">
-                                        <img src="img/04_produce/04-btn/P.png" alt="">
-                                    </div>
+                                    <ul>
+                                        <li>散裝(25元/個)</li>
+                                    </ul>
                                 </div>
-                                <ul>
-                                    <li>散裝(25元/個)</li>
-                                </ul>
-                            </div>
-                            <div class="item-list-02">
-                                <div id="btnB" class="item-list-btn">
-                                    <div id="a_two_m" class="btnleft btnStyleLeft">
-                                        <img src="img/04_produce/04-btn/M.png" alt="">
+                                <div class="item-list-02">
+                                    <div id="btnB" class="item-list-btn">
+                                        <div id="a_two_m" class="btnleft btnStyleLeft">
+                                            <img src="img/04_produce/04-btn/M.png" alt="">
+                                        </div>
+                                        <input id="a_two_num" class="btn_M" type="text" value="0" name="name"></input>
+                                        <div id="a_two_p" class="btnright btnStyleRight" name="button">
+                                            <img src="img/04_produce/04-btn/P.png" alt="">
+                                        </div>
                                     </div>
-                                    <input id="a_two_num" class="btn_M" type="text" value="0" name="name"></input>
-                                    <div id="a_two_p" class="btnright btnStyleRight" name="button">
-                                        <img src="img/04_produce/04-btn/P.png" alt="">
-                                    </div>
+                                    <ul>
+                                        <li>10入禮盒(270元/盒)</li>
+                                    </ul>
                                 </div>
-                                <ul>
-                                    <li>10入禮盒(270元/盒)</li>
-                                </ul>
-                            </div>
-                            <div class="item-list-03">
-                                <div id="btnC" class="item-list-btn">
-                                    <div id="a_three_m" class="btnleft btnStyleLeft">
-                                        <img src="img/04_produce/04-btn/M.png" alt="">
+                                <div class="item-list-03">
+                                    <div id="btnC" class="item-list-btn">
+                                        <div id="a_three_m" class="btnleft btnStyleLeft">
+                                            <img src="img/04_produce/04-btn/M.png" alt="">
+                                        </div>
+                                        <input id="a_three_num" class="btn_M" type="text" value="0" name="name"></input>
+                                        <div id="a_three_p" class="btnright btnStyleRight" name="button">
+                                            <img src="img/04_produce/04-btn/P.png" alt="">
+                                        </div>
                                     </div>
-                                    <input id="a_three_num" class="btn_M" type="text" value="0" name="name"></input>
-                                    <div id="a_three_p" class="btnright btnStyleRight" name="button">
-                                        <img src="img/04_produce/04-btn/P.png" alt="">
-                                    </div>
+                                    <ul>
+                                        <li>12入禮盒(320元/盒)</li>
+                                    </ul>
                                 </div>
-                                <ul>
-                                    <li>12入禮盒(320元/盒)</li>
-                                </ul>
-                            </div>
-                            <div class="item-list-04">
-                                <div id="btnD" class="item-list-btn">
-                                    <div id="a_four_m" class="btnleft btnStyleLeft">
-                                        <img src="img/04_produce/04-btn/M.png" alt="">
+                                <div class="item-list-04">
+                                    <div id="btnD" class="item-list-btn">
+                                        <div id="a_four_m" class="btnleft btnStyleLeft">
+                                            <img src="img/04_produce/04-btn/M.png" alt="">
+                                        </div>
+                                        <input id="a_four_num" class="btn_M" type="text" value="0" name="name"></input>
+                                        <div id="a_four_p" class="btnright btnStyleRight" name="button">
+                                            <img src="img/04_produce/04-btn/P.png" alt="">
+                                        </div>
                                     </div>
-                                    <input id="a_four_num" class="btn_M" type="text" value="0" name="name"></input>
-                                    <div id="a_four_p" class="btnright btnStyleRight" name="button">
-                                        <img src="img/04_produce/04-btn/P.png" alt="">
-                                    </div>
+                                    <ul>
+                                        <li>16入禮盒(420元/盒)</li>
+                                    </ul>
                                 </div>
-                                <ul>
-                                    <li>16入禮盒(420元/盒)</li>
-                                </ul>
-                            </div>
-                            <div class="divcolor">
-                                <div class="item-list-buy">
-                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="goo">
-                                        <defs>
-                                            <filter id="goo">
-                                                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-                                                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
-                                                    result="goo" />
-                                                <feComposite in="SourceGraphic" in2="goo" />
-                                            </filter>
-                                        </defs>
-                                    </svg>
-                                    <span class="div button--bubble__container">
-                                        <button type="button" class="buyIt button--bubble" data-toggle="modal"
-                                            data-target="#buyItModal">放入購物車
-                                        </button>
-                                        <span class="button--bubble__effect-container">
-                                            <span class="circle top-left"></span>
-                                            <span class="circle top-left"></span>
-                                            <span class="circle top-left"></span>
-                                            <span class="button effect-button"></span>
-                                            <span class="circle bottom-right"></span>
-                                            <span class="circle bottom-right"></span>
-                                            <span class="circle bottom-right"></span>
+                                <div class="divcolor">
+                                    <div class="item-list-buy">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="goo">
+                                            <defs>
+                                                <filter id="goo">
+                                                    <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                                                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                                                        result="goo" />
+                                                    <feComposite in="SourceGraphic" in2="goo" />
+                                                </filter>
+                                            </defs>
+                                        </svg>
+                                        <span class="div button--bubble__container">
+                                            <button type="button" class="buyIt button--bubble" data-toggle="modal"
+                                                data-target="#buyItModal">放入購物車
+                                            </button>
+                                            <span class="button--bubble__effect-container">
+                                                <span class="circle top-left"></span>
+                                                <span class="circle top-left"></span>
+                                                <span class="circle top-left"></span>
+                                                <span class="button effect-button"></span>
+                                                <span class="circle bottom-right"></span>
+                                                <span class="circle bottom-right"></span>
+                                                <span class="circle bottom-right"></span>
+                                            </span>
                                         </span>
-                                    </span>
-                                </div>
-                            </div>
-                            <!-- Modal -->
-                            <div class="modal fade" id="buyItModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">訊息</h5>
-                                        </div>
-                                        <div class="modal-body">
-                                            已放入購物車。
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Modal fin-->
                         </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="buyItModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">訊息</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        已放入購物車。
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal fin-->
                     </div>
-
                     <div id="productC" class="productItem col-lg-6 col-md-12">
                         <h2 class="product-item-title">綜合禮盒</h2>
                         <div id="carouselExampleIndicators">
@@ -383,50 +386,52 @@
                                     </span>
                                 </div>
                             </div>
-                            <!-- Modal -->
-                            <div class="modal fade" id="buyItModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">訊息</h5>
-                                        </div>
-                                        <div class="modal-body">
-                                            已放入購物車。
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            <div>
+                                <!-- Modal -->
+                                <div class="modal fade" id="buyItModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">訊息</h5>
+                                            </div>
+                                            <div class="modal-body">
+                                                已放入購物車。
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- Modal fin-->
                             </div>
-                            <!-- Modal fin-->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- footer -->
-    <div id="footer">
-        <div id="footerContent" class="container-fluid text-center copyrights">
-            <div class="row">
-                <div id="footerLogoContent" class="col-lg-2 .col-md-12">
-                    <img id="footerLogo" src="img/01_Logo/Logo_04.png" alt="">
-                </div>
-                <div id="footerText" class="col-lg-8 .col-md-12">
-                    <p>營業時段：上午8:00 - 下午7:00</p>
-                    <p>copyright © 2018 山腳傳奇（榮貴糕餅公司）</p>
-                </div>
-                <div id="footerFbContent" class="col-lg-2 .col-md-12">
-                    <a href="https://zh-tw.facebook.com/%E5%B1%B1%E8%85%B3%E5%82%B3%E5%A5%87%E5%9C%9F%E9%B3%B3%E6%A2%A8%E9%85%A5-236488006373092/">
-                        <img id="footerFb" src="img/08_footer/fb.png" alt="">
-                    </a>
+
+        <!-- footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-12">
+                        <img src="img/01_Logo/Logo_04.png" alt="">
+                    </div>
+                    <div class="col-lg-8 col-12">
+                        <p>營業時段：上午8:00 - 下午7:00</p>
+                        <p>copyright © 2018 山腳傳奇（榮貴糕餅公司）</p>
+                    </div>
+                    <div class="col-lg-2 col-12">
+                        <a href="https://zh-tw.facebook.com/%E5%B1%B1%E8%85%B3%E5%82%B3%E5%A5%87%E5%9C%9F%E9%B3%B3%E6%A2%A8%E9%85%A5-236488006373092/">
+                            <img src="img/08_footer/fb.png" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- 底 -->
+        </footer>
+        <!-- 底 -->
     </div>
     <!-- bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -442,7 +447,7 @@
         var o_one_p = document.querySelector("#o_one_p");
         var o_one_num = document.querySelector("#o_one_num");
         var o_one_m = document.querySelector("#o_one_m");
-
+        
         o_one_p.onclick = function () {
             o_one_num.value = parseInt(o_one_num.value) + 1;
         };

@@ -563,7 +563,10 @@ ul li {
     background-size: cover;
     background-position: center;
 }
-
+#video .carousel-size {
+    width: 75%;
+    margin: 0 auto;
+}
 #center {
     width: 100%;
 }
@@ -755,6 +758,11 @@ a:hover {
 
 .form-size {
     width: 960px;
+    width: 250px;
+
+}
+#contactUsContent .col{
+    flex-grow:0; q
 }
 
 .contactUsh1 {
@@ -788,45 +796,31 @@ a:hover {
 .content-start {
     margin-left: 75px;
 }
-
+.inputsize{
+}
 .form-control {
     max-height: 230px;
     height: 150px;
 }
 /* footer */
-#footer {
+footer {
     background-color: #DBB859;
-    height: 80px;
+    font-size: 15px;
+    padding: 15px 0;
+    text-align: center;
 }
-#footerContent {
-    padding: .5rem 12rem 0 12rem;
+footer p {
+    padding: 0px;
+    margin: unset;
 }
-#footerContent .row {
-    justify-content: center;
-}
-
-img#footerLogo {
+footer img:nth-child(1){
     max-width: 90px;
 }
-
-#footerText {
-    max-width: 400px;
-    padding-top: .5rem;
+footer a img{
+    max-width: 40px!important;
+    margin-top: 10px;
 }
 
-#footerText p {
-    padding: 0;
-    margin: 0;
-    font-size: 1.1rem;
-}
-
-#footerFbContent {
-    padding-top: .7rem;
-}
-
-img#footerFb {
-    max-width: 40px;
-}
 
 /* @media */
 @media only screen and (max-width: 1200px) {
@@ -968,9 +962,9 @@ img#footerFb {
                 .container-fluid{
                     padding: 0;
                 }
-                .container{
+                /* .container{
                     padding: 0;
-                }
+                } */
             }
 
             @media only screen and (max-width:479px) {
