@@ -764,6 +764,9 @@ a:hover {
 #contactUsContent .col{
     flex-grow:0;
 }
+#contactUsContent .col:nth-child(2){
+    margin-bottom: 30px;
+}
 
 .contactUsh1 {
     padding-top: 100px;
@@ -777,10 +780,13 @@ a:hover {
 }
 .line {
     padding-top: 15px;
-    padding-bottom: 15px;
 }
 #contactUsContent input {
     height: 40px;
+    margin-bottom: 29px;
+}
+#contactUsContent .form-group{
+    margin-bottom: 29px;
 }
 #contactUsContent span {
     background-color: #DB933A;

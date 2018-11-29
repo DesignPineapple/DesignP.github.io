@@ -57,7 +57,7 @@
                         <input type="text" class="form-control form-size " id="formGroupExampleInput" placeholder="公司名稱">
                         <input type="text" class="form-control form-size " id="formGroupExampleInput" placeholder="電子信箱">
                         <div class="form-group">
-                            <label for="exampleFormControlSelect1"></label>
+                            <!-- <label for="exampleFormControlSelect1"></label> -->
                             <select class="form-control inputsize" id="exampleFormControlSelect1">
                                 <option selected>選擇國家</option>
                                 <option>臺灣</option>
@@ -67,10 +67,7 @@
                                 <option>新加坡</option>
                             </select>
                         </div>
-                        <div id="contentEnd" class="line">
-                            <span>驗證碼</span>  <span>45645</span>
-                            <input type="text" class="form-group" id="boxC" placeholder="輸入數字...">
-                        </div>
+                        
                     </div>
                     <div class="col">
                         <input type="text" class="form-control form-size inputsize" id="formGroupExampleInput"
@@ -81,7 +78,17 @@
                             <div class="input-group-prepend "></div>
                             <textarea class="form-control" aria-label="With textarea"></textarea>
                         </div>
+                        <div id="contentEnd" class="line">
+                            <span>驗證碼</span>  <span>45645</span>
+                            <input type="text" class="form-group" id="boxC" placeholder="請輸入驗證碼">
+                        
+                            <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
+                                送出
+                              </button>
+                            </div>
+                        
                     </div>
+                    
                 </div>
                 <!--彈出提示 -->
                 <!-- Modal -->
